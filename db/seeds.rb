@@ -6,7 +6,7 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-100.times do |i|
+10.times do |i|
   lat = rand(37.7..37.8)
   long = -1 * rand(122.3..122.5)
   desc = Faker::Lorem.sentence
